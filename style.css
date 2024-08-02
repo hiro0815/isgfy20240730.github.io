@@ -494,3 +494,55 @@ a.btn-border:hover:after {
     list-style: none;
     padding-left: 20px;
 }
+
+@media (max-width:600px) {
+    .header .logo img {
+        display: none;
+    }
+
+    .header .title {
+        font-size: 24px;
+    }
+
+    .paragraph {
+        margin-left: 0;
+    }
+
+    .grid1,
+    .grid2,
+    .grid3,
+    .grid4 {
+        margin-left: 10px;
+    }
+
+    .case {
+        margin: 5px;
+    }
+
+    .check {
+        padding-top: 20px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    .left3 {
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+
+    h3.private1 {
+        margin-left: 10px;
+
+    }
+
+    a.btn {
+        font-size: 20px;
+    }
+
+    .result-1,
+    .result-2,
+    .result-3 {
+        margin-top: -30px;
+        margin-left: 40px;
+    }
+}
